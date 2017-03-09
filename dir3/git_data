@@ -1,0 +1,1 @@
+ git log -1 --date=iso | grep Date | sed 's/Date: *\(.*\) *+.*/\1/'
